@@ -48,7 +48,7 @@ const langCodes = Object.keys(languages) as Lang[];
 <main>
   <section class="hero">
     <div class="wrap">
-      <span class="badge">{t('heroBadge')}</span>
+      {t('heroBadge') && <span class="badge">{t('heroBadge')}</span>}
       <h1 set:html={t('heroTitle')} />
       <p>{t('heroSubtitle')}</p>
       <div class="cta-row">

@@ -18,10 +18,10 @@ export const ui = {
       'Airothy turns your iPhone into a secure, low-latency wireless trackpad and keyboard for your Mac. No cables. No third-party servers. Built on Apple frameworks only.',
     navGithub: 'GitHub',
     navDownload: 'Download',
-    heroBadge: 'Now in beta',
-    heroTitle: `Your iPhone is your Mac's <span class="accent">wireless trackpad</span> and keyboard.`,
+    heroBadge: '',
+    heroTitle: `Make your iPhone a <span class="accent">wireless trackpad</span> and keyboard`,
     heroSubtitle:
-      'Airothy turns any iPhone on your local network into a secure, low-latency input device for your Mac. Multi-touch gestures, full keyboard, Mission Control, media keys — all without leaving your couch.',
+      'Control your Mac from across the room. Airothy turns your iPhone into a fast, private trackpad and keyboard — multi-touch gestures, a full keyboard, and quick shortcuts, all over your own Wi-Fi.',
     heroCtaPrimary: 'Download for macOS',
     heroCtaSecondary: 'Get the iOS app',
     heroMeta: 'Requires macOS 15+ and iOS 17+ on the same local network.',
@@ -33,7 +33,7 @@ export const ui = {
       'Hold-to-use modifiers, client-side key repeat, Mac-generation-aware function row with brightness, media, mute, and volume. Or use the iOS keyboard with a Cmd / Opt / Ctrl / Shift accessory bar.',
     featSecureTitle: 'Authenticated by design',
     featSecureBody:
-      'Curve25519 key exchange, HMAC-signed command envelopes, monotonic sequence numbers, and explicit Mac-owner pairing. No cloud, no third-party servers, no telemetry.',
+      "Every connection is encrypted, and your Mac only takes commands from iPhones you've personally approved. No cloud, no third-party servers, no tracking.",
     howTitle: 'How it works',
     howSubtitle: 'Three steps, ~60 seconds the first time.',
     step1Label: 'STEP 01',
@@ -47,14 +47,14 @@ export const ui = {
     step3Label: 'STEP 03',
     step3Title: 'Control your Mac',
     step3Body:
-      'Use the trackpad surface for gestures, or the full-screen Magic Keyboard for typing. Auto-locks when you put the iPhone down.',
+      "Use the trackpad surface for gestures, or the full-screen Magic Keyboard for typing. Lock your iPhone when you're done and the session ends automatically.",
     privacyTitle: 'Privacy and security',
     privacyB1:
       '<strong>Local network only.</strong> The iPhone and Mac talk peer-to-peer over Bonjour and TCP. Nothing transits the public internet.',
     privacyB2:
       '<strong>No accounts.</strong> No sign-up. No login. No third-party servers. No analytics. No telemetry.',
     privacyB3:
-      '<strong>Open protocol, signed code.</strong> The macOS app is Developer ID signed, notarized by Apple, and auto-updates via Sparkle with EdDSA-verified release signatures.',
+      '<strong>Signed and notarized.</strong> The macOS app is Developer ID–signed, notarized by Apple, and updates itself securely with verified release signatures.',
     privacyB4:
       '<strong>One controller at a time.</strong> The Mac will not accept commands from more than one paired iPhone simultaneously; takeover requires explicit Mac-side approval.',
     reqMacosLabel: 'macOS',
@@ -78,10 +78,10 @@ export const ui = {
       'Airothy macht dein iPhone zum sicheren, latenzarmen drahtlosen Trackpad und zur Tastatur für deinen Mac. Keine Kabel. Keine Drittanbieter-Server. Nur Apple-Frameworks.',
     navGithub: 'GitHub',
     navDownload: 'Download',
-    heroBadge: 'Jetzt in der Beta',
-    heroTitle: `Dein iPhone ist das <span class="accent">drahtlose Trackpad</span> und die Tastatur deines Mac.`,
+    heroBadge: '',
+    heroTitle: `Mach dein iPhone zum <span class="accent">drahtlosen Trackpad</span> und zur Tastatur`,
     heroSubtitle:
-      'Airothy verwandelt jedes iPhone im lokalen Netzwerk in ein sicheres, latenzarmes Eingabegerät für deinen Mac. Multi-Touch-Gesten, volle Tastatur, Mission Control, Medientasten — alles bequem vom Sofa aus.',
+      'Steuere deinen Mac quer durchs Zimmer. Airothy macht dein iPhone zum schnellen, privaten Trackpad und zur Tastatur — Multi-Touch-Gesten, eine volle Tastatur und schnelle Shortcuts, alles über dein eigenes WLAN.',
     heroCtaPrimary: 'Für macOS laden',
     heroCtaSecondary: 'iOS-App holen',
     heroMeta: 'Erfordert macOS 15+ und iOS 17+ im selben lokalen Netzwerk.',
@@ -93,7 +93,7 @@ export const ui = {
       'Gedrückt-halten-Modifikatoren, clientseitige Tastenwiederholung, eine an die Mac-Generation angepasste Funktionsleiste mit Helligkeit, Medien, Stummschaltung und Lautstärke. Oder nutze die iOS-Tastatur mit einer Cmd / Opt / Ctrl / Shift-Leiste.',
     featSecureTitle: 'Sicher von Grund auf',
     featSecureBody:
-      'Curve25519-Schlüsselaustausch, HMAC-signierte Befehls-Umschläge, monoton steigende Sequenznummern und ausdrückliches Pairing durch den Mac-Besitzer. Keine Cloud, keine Drittanbieter-Server, keine Telemetrie.',
+      'Jede Verbindung ist verschlüsselt, und dein Mac nimmt nur Befehle von iPhones an, die du selbst freigegeben hast. Keine Cloud, keine Drittanbieter-Server, kein Tracking.',
     howTitle: 'So funktioniert es',
     howSubtitle: 'Drei Schritte, beim ersten Mal ~60 Sekunden.',
     step1Label: 'SCHRITT 01',
@@ -107,14 +107,14 @@ export const ui = {
     step3Label: 'SCHRITT 03',
     step3Title: 'Mac steuern',
     step3Body:
-      'Nutze die Trackpad-Fläche für Gesten oder die bildschirmfüllende Magic Keyboard zum Tippen. Sperrt automatisch, wenn du das iPhone weglegst.',
+      'Nutze die Trackpad-Fläche für Gesten oder die bildschirmfüllende Magic Keyboard zum Tippen. Sperre dein iPhone, wenn du fertig bist, und die Sitzung endet automatisch.',
     privacyTitle: 'Datenschutz und Sicherheit',
     privacyB1:
       '<strong>Nur lokales Netzwerk.</strong> iPhone und Mac kommunizieren direkt über Bonjour und TCP. Nichts geht über das öffentliche Internet.',
     privacyB2:
       '<strong>Keine Konten.</strong> Keine Registrierung. Kein Login. Keine Drittanbieter-Server. Keine Analyse. Keine Telemetrie.',
     privacyB3:
-      '<strong>Offenes Protokoll, signierter Code.</strong> Die macOS-App ist mit einer Developer-ID signiert, von Apple notarisiert und aktualisiert sich automatisch über Sparkle mit EdDSA-verifizierten Release-Signaturen.',
+      '<strong>Signiert und notarisiert.</strong> Die macOS-App ist mit einer Developer-ID signiert, von Apple notarisiert und aktualisiert sich sicher mit verifizierten Release-Signaturen.',
     privacyB4:
       '<strong>Nur ein Controller gleichzeitig.</strong> Der Mac nimmt keine Befehle von mehr als einem gekoppelten iPhone gleichzeitig an; eine Übernahme erfordert die ausdrückliche Bestätigung am Mac.',
     reqMacosLabel: 'macOS',
@@ -138,10 +138,10 @@ export const ui = {
       'Airothy convierte tu iPhone en un trackpad y teclado inalámbricos seguros y de baja latencia para tu Mac. Sin cables. Sin servidores de terceros. Solo frameworks de Apple.',
     navGithub: 'GitHub',
     navDownload: 'Descargar',
-    heroBadge: 'Ahora en beta',
-    heroTitle: `Tu iPhone es el <span class="accent">trackpad inalámbrico</span> y el teclado de tu Mac.`,
+    heroBadge: '',
+    heroTitle: `Convierte tu iPhone en un <span class="accent">trackpad inalámbrico</span> y teclado`,
     heroSubtitle:
-      'Airothy convierte cualquier iPhone de tu red local en un dispositivo de entrada seguro y de baja latencia para tu Mac. Gestos multitáctiles, teclado completo, Mission Control, teclas multimedia — todo sin levantarte del sofá.',
+      'Controla tu Mac desde el otro lado de la habitación. Airothy convierte tu iPhone en un trackpad y teclado rápidos y privados — gestos multitáctiles, un teclado completo y atajos rápidos, todo a través de tu propia red Wi-Fi.',
     heroCtaPrimary: 'Descargar para macOS',
     heroCtaSecondary: 'Obtener la app de iOS',
     heroMeta: 'Requiere macOS 15+ e iOS 17+ en la misma red local.',
@@ -153,7 +153,7 @@ export const ui = {
       'Modificadores que se mantienen pulsados, repetición de teclas en el cliente y una fila de funciones adaptada a la generación del Mac con brillo, multimedia, silencio y volumen. O usa el teclado de iOS con una barra de Cmd / Opt / Ctrl / Shift.',
     featSecureTitle: 'Autenticado por diseño',
     featSecureBody:
-      'Intercambio de claves Curve25519, sobres de comandos firmados con HMAC, números de secuencia monótonos y emparejamiento con aprobación explícita del propietario del Mac. Sin nube, sin servidores de terceros, sin telemetría.',
+      'Cada conexión está cifrada y tu Mac solo acepta comandos de los iPhone que tú mismo has aprobado. Sin nube, sin servidores de terceros, sin rastreo.',
     howTitle: 'Cómo funciona',
     howSubtitle: 'Tres pasos, ~60 segundos la primera vez.',
     step1Label: 'PASO 01',
@@ -167,14 +167,14 @@ export const ui = {
     step3Label: 'PASO 03',
     step3Title: 'Controlar tu Mac',
     step3Body:
-      'Usa la superficie del trackpad para los gestos o el Magic Keyboard a pantalla completa para escribir. Se bloquea automáticamente cuando dejas el iPhone.',
+      'Usa la superficie del trackpad para los gestos o el Magic Keyboard a pantalla completa para escribir. Bloquea tu iPhone cuando termines y la sesión finaliza automáticamente.',
     privacyTitle: 'Privacidad y seguridad',
     privacyB1:
       '<strong>Solo red local.</strong> El iPhone y el Mac se comunican de igual a igual mediante Bonjour y TCP. Nada pasa por internet.',
     privacyB2:
       '<strong>Sin cuentas.</strong> Sin registro. Sin inicio de sesión. Sin servidores de terceros. Sin analíticas. Sin telemetría.',
     privacyB3:
-      '<strong>Protocolo abierto, código firmado.</strong> La app de macOS está firmada con Developer ID, notarizada por Apple y se actualiza automáticamente con Sparkle mediante firmas de versión verificadas con EdDSA.',
+      '<strong>Firmado y notarizado.</strong> La app de macOS está firmada con Developer ID, notarizada por Apple y se actualiza de forma segura con firmas de versión verificadas.',
     privacyB4:
       '<strong>Un solo controlador a la vez.</strong> El Mac no aceptará comandos de más de un iPhone emparejado a la vez; el relevo requiere aprobación explícita en el Mac.',
     reqMacosLabel: 'macOS',
@@ -198,10 +198,10 @@ export const ui = {
       'Airothy transforme votre iPhone en trackpad et clavier sans fil sécurisés et à faible latence pour votre Mac. Sans câble. Sans serveur tiers. Uniquement des frameworks Apple.',
     navGithub: 'GitHub',
     navDownload: 'Télécharger',
-    heroBadge: 'Désormais en bêta',
-    heroTitle: `Votre iPhone devient le <span class="accent">trackpad sans fil</span> et le clavier de votre Mac.`,
+    heroBadge: '',
+    heroTitle: `Faites de votre iPhone un <span class="accent">trackpad sans fil</span> et un clavier`,
     heroSubtitle:
-      'Airothy transforme n’importe quel iPhone de votre réseau local en périphérique de saisie sécurisé et à faible latence pour votre Mac. Gestes multitouch, clavier complet, Mission Control, touches multimédias — le tout sans quitter votre canapé.',
+      'Contrôlez votre Mac à l’autre bout de la pièce. Airothy transforme votre iPhone en trackpad et clavier rapides et privés — gestes multitouch, clavier complet et raccourcis rapides, le tout sur votre propre Wi-Fi.',
     heroCtaPrimary: 'Télécharger pour macOS',
     heroCtaSecondary: 'Obtenir l’app iOS',
     heroMeta: 'Nécessite macOS 15+ et iOS 17+ sur le même réseau local.',
@@ -213,7 +213,7 @@ export const ui = {
       'Modificateurs à maintien, répétition des touches côté client, rangée de fonctions adaptée à la génération du Mac avec luminosité, médias, silence et volume. Ou utilisez le clavier iOS avec une barre Cmd / Opt / Ctrl / Shift.',
     featSecureTitle: 'Authentifié par conception',
     featSecureBody:
-      'Échange de clés Curve25519, enveloppes de commandes signées par HMAC, numéros de séquence monotones et appairage avec approbation explicite du propriétaire du Mac. Pas de cloud, pas de serveur tiers, pas de télémétrie.',
+      'Chaque connexion est chiffrée, et votre Mac n’accepte les commandes que des iPhone que vous avez vous-même approuvés. Pas de cloud, pas de serveur tiers, pas de pistage.',
     howTitle: 'Comment ça marche',
     howSubtitle: 'Trois étapes, ~60 secondes la première fois.',
     step1Label: 'ÉTAPE 01',
@@ -227,14 +227,14 @@ export const ui = {
     step3Label: 'ÉTAPE 03',
     step3Title: 'Contrôler votre Mac',
     step3Body:
-      'Utilisez la surface du trackpad pour les gestes, ou le Magic Keyboard plein écran pour taper. Verrouillage automatique dès que vous posez l’iPhone.',
+      'Utilisez la surface du trackpad pour les gestes, ou le Magic Keyboard plein écran pour taper. Verrouillez votre iPhone quand vous avez terminé et la session se termine automatiquement.',
     privacyTitle: 'Confidentialité et sécurité',
     privacyB1:
       '<strong>Réseau local uniquement.</strong> L’iPhone et le Mac communiquent en pair à pair via Bonjour et TCP. Rien ne transite par l’internet public.',
     privacyB2:
       '<strong>Aucun compte.</strong> Pas d’inscription. Pas de connexion. Pas de serveur tiers. Pas d’analyse. Pas de télémétrie.',
     privacyB3:
-      '<strong>Protocole ouvert, code signé.</strong> L’app macOS est signée Developer ID, notariée par Apple et se met à jour automatiquement via Sparkle avec des signatures de version vérifiées par EdDSA.',
+      '<strong>Signé et notarié.</strong> L’app macOS est signée Developer ID, notariée par Apple et se met à jour en toute sécurité avec des signatures de version vérifiées.',
     privacyB4:
       '<strong>Un seul contrôleur à la fois.</strong> Le Mac n’accepte pas les commandes de plus d’un iPhone appairé à la fois ; la reprise exige une approbation explicite côté Mac.',
     reqMacosLabel: 'macOS',
@@ -258,10 +258,10 @@ export const ui = {
       'Airothy は iPhone を、Mac 用の安全で低遅延なワイヤレストラックパッド兼キーボードに変えます。ケーブル不要。サードパーティのサーバーなし。Apple のフレームワークのみで構築。',
     navGithub: 'GitHub',
     navDownload: 'ダウンロード',
-    heroBadge: 'ベータ版公開中',
-    heroTitle: `iPhone が Mac の<span class="accent">ワイヤレストラックパッド</span>とキーボードに。`,
+    heroBadge: '',
+    heroTitle: `iPhone を<span class="accent">ワイヤレストラックパッド</span>とキーボードに`,
     heroSubtitle:
-      'Airothy は、ローカルネットワーク上の iPhone を Mac 用の安全で低遅延な入力デバイスに変えます。マルチタッチジェスチャ、フルキーボード、Mission Control、メディアキー — すべてソファに座ったままで。',
+      '離れた場所から Mac を操作。Airothy は iPhone を、速くてプライベートなトラックパッド兼キーボードに変えます — マルチタッチジェスチャ、フルキーボード、すばやいショートカット、すべて自宅の Wi-Fi で。',
     heroCtaPrimary: 'macOS 版をダウンロード',
     heroCtaSecondary: 'iOS アプリを入手',
     heroMeta: '同一ローカルネットワーク上の macOS 15 以降と iOS 17 以降が必要です。',
@@ -273,7 +273,7 @@ export const ui = {
       '長押し対応の修飾キー、クライアント側でのキーリピート、Mac の世代に合わせたファンクション列（輝度・メディア・消音・音量）。iOS のキーボードを Cmd / Opt / Ctrl / Shift バー付きで使うこともできます。',
     featSecureTitle: '設計から認証済み',
     featSecureBody:
-      'Curve25519 鍵交換、HMAC 署名付きコマンド、単調増加するシーケンス番号、そして Mac 所有者による明示的なペアリング。クラウドなし、サードパーティのサーバーなし、テレメトリなし。',
+      'すべての通信は暗号化され、Mac はあなた自身が承認した iPhone からのコマンドだけを受け付けます。クラウドなし、サードパーティのサーバーなし、トラッキングなし。',
     howTitle: '使い方',
     howSubtitle: '3 ステップ、初回は約 60 秒。',
     step1Label: 'ステップ 01',
@@ -287,14 +287,14 @@ export const ui = {
     step3Label: 'ステップ 03',
     step3Title: 'Mac を操作',
     step3Body:
-      'トラックパッド面でジェスチャを、全画面の Magic Keyboard で入力を。iPhone を置くと自動でロックします。',
+      'トラックパッド面でジェスチャを、全画面の Magic Keyboard で入力を。使い終わったら iPhone をロックすれば、セッションは自動的に終了します。',
     privacyTitle: 'プライバシーとセキュリティ',
     privacyB1:
       '<strong>ローカルネットワークのみ。</strong> iPhone と Mac は Bonjour と TCP でピアツーピアに通信します。公共のインターネットを経由しません。',
     privacyB2:
       '<strong>アカウント不要。</strong> 登録なし。ログインなし。サードパーティのサーバーなし。解析なし。テレメトリなし。',
     privacyB3:
-      '<strong>オープンなプロトコル、署名済みコード。</strong> macOS アプリは Developer ID で署名され、Apple により公証され、EdDSA 検証付きのリリース署名により Sparkle 経由で自動更新されます。',
+      '<strong>署名・公証済み。</strong> macOS アプリは Developer ID で署名され、Apple により公証され、検証済みのリリース署名で安全に自動更新されます。',
     privacyB4:
       '<strong>同時に 1 台のコントローラーのみ。</strong> Mac は同時に複数のペアリング済み iPhone からのコマンドを受け付けません。切り替えには Mac 側での明示的な承認が必要です。',
     reqMacosLabel: 'macOS',
@@ -318,10 +318,10 @@ export const ui = {
       'Airothy는 iPhone을 Mac을 위한 안전하고 지연이 적은 무선 트랙패드 및 키보드로 바꿔 줍니다. 케이블 없음. 서드파티 서버 없음. Apple 프레임워크만으로 제작.',
     navGithub: 'GitHub',
     navDownload: '다운로드',
-    heroBadge: '현재 베타',
-    heroTitle: `iPhone이 Mac의 <span class="accent">무선 트랙패드</span>이자 키보드가 됩니다.`,
+    heroBadge: '',
+    heroTitle: `iPhone을 <span class="accent">무선 트랙패드</span>이자 키보드로 만드세요`,
     heroSubtitle:
-      'Airothy는 로컬 네트워크의 어떤 iPhone이든 Mac을 위한 안전하고 지연이 적은 입력 장치로 바꿔 줍니다. 멀티터치 제스처, 전체 키보드, Mission Control, 미디어 키 — 소파에서 일어나지 않고도 모두 가능합니다.',
+      '멀리 떨어진 곳에서도 Mac을 제어하세요. Airothy는 iPhone을 빠르고 안전한 트랙패드이자 키보드로 바꿔 줍니다 — 멀티터치 제스처, 전체 키보드, 빠른 단축키까지 모두 집 안의 Wi-Fi로.',
     heroCtaPrimary: 'macOS용 다운로드',
     heroCtaSecondary: 'iOS 앱 받기',
     heroMeta: '동일한 로컬 네트워크의 macOS 15 이상과 iOS 17 이상이 필요합니다.',
@@ -333,7 +333,7 @@ export const ui = {
       '길게 눌러 쓰는 보조 키, 클라이언트 측 키 반복, Mac 세대를 인식하는 기능 키 열(밝기, 미디어, 음소거, 볼륨). 또는 Cmd / Opt / Ctrl / Shift 보조 막대가 있는 iOS 키보드를 사용할 수 있습니다.',
     featSecureTitle: '설계부터 인증',
     featSecureBody:
-      'Curve25519 키 교환, HMAC 서명 명령 봉투, 단조 증가 시퀀스 번호, 그리고 Mac 소유자의 명시적 페어링. 클라우드 없음, 서드파티 서버 없음, 텔레메트리 없음.',
+      '모든 연결은 암호화되며, Mac은 직접 승인한 iPhone의 명령만 받아들입니다. 클라우드 없음, 서드파티 서버 없음, 추적 없음.',
     howTitle: '작동 방식',
     howSubtitle: '세 단계, 처음에는 약 60초.',
     step1Label: '단계 01',
@@ -347,14 +347,14 @@ export const ui = {
     step3Label: '단계 03',
     step3Title: 'Mac 제어',
     step3Body:
-      '제스처에는 트랙패드 면을, 입력에는 전체 화면 Magic Keyboard를 사용하세요. iPhone을 내려놓으면 자동으로 잠깁니다.',
+      '제스처에는 트랙패드 면을, 입력에는 전체 화면 Magic Keyboard를 사용하세요. 다 쓴 뒤 iPhone을 잠그면 세션이 자동으로 종료됩니다.',
     privacyTitle: '개인정보 보호와 보안',
     privacyB1:
       '<strong>로컬 네트워크 전용.</strong> iPhone과 Mac은 Bonjour와 TCP를 통해 P2P로 통신합니다. 어떤 데이터도 공용 인터넷을 거치지 않습니다.',
     privacyB2:
       '<strong>계정 없음.</strong> 가입 없음. 로그인 없음. 서드파티 서버 없음. 분석 없음. 텔레메트리 없음.',
     privacyB3:
-      '<strong>개방형 프로토콜, 서명된 코드.</strong> macOS 앱은 Developer ID로 서명되고 Apple의 공증을 받았으며, EdDSA로 검증된 릴리스 서명과 함께 Sparkle을 통해 자동 업데이트됩니다.',
+      '<strong>서명 및 공증 완료.</strong> macOS 앱은 Developer ID로 서명되고 Apple의 공증을 받았으며, 검증된 릴리스 서명으로 안전하게 자동 업데이트됩니다.',
     privacyB4:
       '<strong>한 번에 하나의 컨트롤러.</strong> Mac은 동시에 둘 이상의 페어링된 iPhone에서 오는 명령을 받지 않으며, 전환에는 Mac 쪽의 명시적 승인이 필요합니다.',
     reqMacosLabel: 'macOS',
@@ -378,10 +378,10 @@ export const ui = {
       'Airothy 把你的 iPhone 变成 Mac 的安全、低延迟无线触控板和键盘。无需线缆。没有第三方服务器。仅基于 Apple 框架构建。',
     navGithub: 'GitHub',
     navDownload: '下载',
-    heroBadge: '现已进入 Beta',
-    heroTitle: `让你的 iPhone 成为 Mac 的<span class="accent">无线触控板</span>和键盘。`,
+    heroBadge: '',
+    heroTitle: `让你的 iPhone 成为<span class="accent">无线触控板</span>和键盘`,
     heroSubtitle:
-      'Airothy 把本地网络中的任意 iPhone 变成 Mac 的安全、低延迟输入设备。多点触控手势、完整键盘、Mission Control、媒体键 — 全部都能在沙发上完成。',
+      '在房间另一头也能操控 Mac。Airothy 把你的 iPhone 变成快速、私密的触控板和键盘 — 多点触控手势、完整键盘和便捷快捷键，全部通过你自己的 Wi-Fi。',
     heroCtaPrimary: '下载 macOS 版',
     heroCtaSecondary: '获取 iOS 应用',
     heroMeta: '需要同一本地网络中的 macOS 15+ 和 iOS 17+。',
@@ -393,7 +393,7 @@ export const ui = {
       '可长按的修饰键、客户端按键重复，以及根据 Mac 机型适配的功能键行（亮度、媒体、静音和音量）。也可以使用带 Cmd / Opt / Ctrl / Shift 辅助栏的 iOS 键盘。',
     featSecureTitle: '从设计上就经过认证',
     featSecureBody:
-      'Curve25519 密钥交换、HMAC 签名的命令封包、单调递增的序列号，以及由 Mac 所有者明确确认的配对。没有云端，没有第三方服务器，没有遥测。',
+      '每一次连接都经过加密，Mac 只接受你亲自批准的 iPhone 发来的命令。没有云端，没有第三方服务器，没有追踪。',
     howTitle: '工作原理',
     howSubtitle: '三步搞定，首次约 60 秒。',
     step1Label: '步骤 01',
@@ -407,14 +407,14 @@ export const ui = {
     step3Label: '步骤 03',
     step3Title: '控制你的 Mac',
     step3Body:
-      '用触控板区域做手势，或用全屏 Magic Keyboard 打字。放下 iPhone 时会自动锁定。',
+      '用触控板区域做手势，或用全屏 Magic Keyboard 打字。用完后锁定 iPhone，会话便会自动结束。',
     privacyTitle: '隐私与安全',
     privacyB1:
       '<strong>仅限本地网络。</strong> iPhone 与 Mac 通过 Bonjour 和 TCP 点对点通信。任何数据都不会经过公共互联网。',
     privacyB2:
       '<strong>无需账户。</strong> 无需注册。无需登录。没有第三方服务器。没有分析。没有遥测。',
     privacyB3:
-      '<strong>开放协议，签名代码。</strong> macOS 应用经过 Developer ID 签名、Apple 公证，并通过 Sparkle 以 EdDSA 验证的发布签名自动更新。',
+      '<strong>已签名并公证。</strong> macOS 应用经过 Developer ID 签名、Apple 公证，并以经过验证的发布签名安全地自动更新。',
     privacyB4:
       '<strong>同一时间仅一个控制端。</strong> Mac 不会同时接受来自多台已配对 iPhone 的命令；接管需要在 Mac 端明确批准。',
     reqMacosLabel: 'macOS',
@@ -438,10 +438,10 @@ export const ui = {
       'يحوّل Airothy هاتف iPhone إلى لوحة تتبع ولوحة مفاتيح لاسلكية آمنة ومنخفضة الكمون لجهاز Mac. بلا كابلات. بلا خوادم خارجية. مبني على أطر عمل Apple فقط.',
     navGithub: 'GitHub',
     navDownload: 'تنزيل',
-    heroBadge: 'متاح الآن كنسخة بيتا',
-    heroTitle: `هاتف iPhone هو <span class="accent">لوحة التتبع اللاسلكية</span> ولوحة المفاتيح لجهاز Mac.`,
+    heroBadge: '',
+    heroTitle: `اجعل هاتف iPhone <span class="accent">لوحة تتبع لاسلكية</span> ولوحة مفاتيح`,
     heroSubtitle:
-      'يحوّل Airothy أي هاتف iPhone على شبكتك المحلية إلى جهاز إدخال آمن ومنخفض الكمون لجهاز Mac. إيماءات متعددة اللمس، لوحة مفاتيح كاملة، Mission Control، ومفاتيح الوسائط — كل ذلك دون مغادرة أريكتك.',
+      'تحكّم في جهاز Mac من الطرف الآخر للغرفة. يحوّل Airothy هاتف iPhone إلى لوحة تتبع ولوحة مفاتيح سريعة وخاصة — إيماءات متعددة اللمس، ولوحة مفاتيح كاملة، واختصارات سريعة، كل ذلك عبر شبكة Wi-Fi الخاصة بك.',
     heroCtaPrimary: 'التنزيل لنظام macOS',
     heroCtaSecondary: 'الحصول على تطبيق iOS',
     heroMeta: 'يتطلب macOS 15 أو أحدث و iOS 17 أو أحدث على الشبكة المحلية نفسها.',
@@ -453,7 +453,7 @@ export const ui = {
       'مفاتيح تعديل بالضغط المطوّل، تكرار للمفاتيح من جهة العميل، وصف مفاتيح وظائف يتكيّف مع جيل Mac مع السطوع والوسائط والكتم ومستوى الصوت. أو استخدم لوحة مفاتيح iOS مع شريط Cmd / Opt / Ctrl / Shift.',
     featSecureTitle: 'مُوثَّق بحكم التصميم',
     featSecureBody:
-      'تبادل مفاتيح Curve25519، أظرف أوامر موقّعة بـ HMAC، أرقام تسلسل متزايدة باطراد، واقتران صريح بموافقة مالك Mac. بلا سحابة، بلا خوادم خارجية، بلا قياس عن بُعد.',
+      'كل اتصال مُشفَّر، ولا يقبل Mac الأوامر إلا من أجهزة iPhone التي وافقت عليها بنفسك. بلا سحابة، بلا خوادم خارجية، بلا تتبّع.',
     howTitle: 'كيف يعمل',
     howSubtitle: 'ثلاث خطوات، نحو 60 ثانية في المرة الأولى.',
     step1Label: 'الخطوة 01',
@@ -467,14 +467,14 @@ export const ui = {
     step3Label: 'الخطوة 03',
     step3Title: 'التحكم في Mac',
     step3Body:
-      'استخدم سطح لوحة التتبع للإيماءات، أو لوحة Magic Keyboard بملء الشاشة للكتابة. يُقفل تلقائيًا عند وضع iPhone جانبًا.',
+      'استخدم سطح لوحة التتبع للإيماءات، أو لوحة Magic Keyboard بملء الشاشة للكتابة. اقفل هاتف iPhone عند الانتهاء وستنتهي الجلسة تلقائيًا.',
     privacyTitle: 'الخصوصية والأمان',
     privacyB1:
       '<strong>الشبكة المحلية فقط.</strong> يتواصل iPhone و Mac مباشرةً عبر Bonjour و TCP. لا شيء يمر عبر الإنترنت العام.',
     privacyB2:
       '<strong>بلا حسابات.</strong> بلا تسجيل. بلا تسجيل دخول. بلا خوادم خارجية. بلا تحليلات. بلا قياس عن بُعد.',
     privacyB3:
-      '<strong>بروتوكول مفتوح، وشيفرة موقّعة.</strong> تطبيق macOS موقّع بـ Developer ID وموثَّق من Apple، ويُحدَّث تلقائيًا عبر Sparkle بتواقيع إصدار مُتحقَّق منها بـ EdDSA.',
+      '<strong>موقّع وموثَّق.</strong> تطبيق macOS موقّع بـ Developer ID وموثَّق من Apple، ويُحدَّث نفسه بأمان بتواقيع إصدار مُتحقَّق منها.',
     privacyB4:
       '<strong>وحدة تحكم واحدة في كل مرة.</strong> لن يقبل Mac أوامر من أكثر من iPhone مقترن في الوقت نفسه؛ ويتطلب الاستحواذ موافقة صريحة من جهة Mac.',
     reqMacosLabel: 'macOS',
