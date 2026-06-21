@@ -1,0 +1,170 @@
+---
+import { type Lang } from '../i18n/ui';
+import { languages, localizedPath, useTranslations } from '../i18n/utils';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+const t = useTranslations(lang);
+
+const downloadHref = 'https://github.com/easterve/airothy-releases/releases';
+const sourceHref = 'https://github.com/easterve';
+const appcastHref = 'https://github.com/easterve/airothy-releases/blob/main/appcast.xml';
+const iosHref = 'https://apps.apple.com/app/id0000000000';
+
+const year = new Date().getFullYear();
+const langCodes = Object.keys(languages) as Lang[];
+---
+
+<nav>
+  <div class="wrap row">
+    <a class="brand" href={localizedPath(lang)}>
+      <img src="/airothy-wordmark.png" alt="Airothy" />
+    </a>
+    <div class="nav-actions">
+      <a href={sourceHref}>{t('navGithub')}</a>
+      <a href={downloadHref}>{t('navDownload')}</a>
+      <details class="lang-switcher">
+        <summary aria-label={t('switcherLabel')}>
+          {languages[lang]}
+          <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M6 9l6 6 6-6" />
+          </svg>
+        </summary>
+        <div class="lang-menu">
+          {langCodes.map((code) => (
+            <a href={localizedPath(code)} aria-current={code === lang ? 'true' : undefined}>
+              {languages[code]}
+            </a>
+          ))}
+        </div>
+      </details>
+    </div>
+  </div>
+</nav>
+
+<main>
+  <section class="hero">
+    <div class="wrap">
+      <span class="badge">{t('heroBadge')}</span>
+      <h1 set:html={t('heroTitle')} />
+      <p>{t('heroSubtitle')}</p>
+      <div class="cta-row">
+        <a class="btn btn-primary" href={downloadHref}>{t('heroCtaPrimary')}</a>
+        <a class="btn btn-secondary" href={iosHref}>{t('heroCtaSecondary')}</a>
+      </div>
+      <div class="hero-meta">{t('heroMeta')}</div>
+
+      <div class="hero-visual">
+        <img src="/airothy-icon.png" alt="Airothy" />
+      </div>
+    </div>
+  </section>
+
+  <section class="features">
+    <div class="wrap">
+      <div class="features-grid">
+        <div class="feature">
+          <div class="icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="5" y="3" width="14" height="18" rx="3" />
+              <circle cx="12" cy="11" r="2" />
+            </svg>
+          </div>
+          <h3>{t('featTrackpadTitle')}</h3>
+          <p>{t('featTrackpadBody')}</p>
+        </div>
+        <div class="feature">
+          <div class="icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="6" width="20" height="13" rx="2" />
+              <path d="M7 11h.01M11 11h.01M15 11h.01M19 11h.01M7 15h10" />
+            </svg>
+          </div>
+          <h3>{t('featKeyboardTitle')}</h3>
+          <p>{t('featKeyboardBody')}</p>
+        </div>
+        <div class="feature">
+          <div class="icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 2l8 4v6c0 5-3.5 9-8 10-4.5-1-8-5-8-10V6l8-4z" />
+            </svg>
+          </div>
+          <h3>{t('featSecureTitle')}</h3>
+          <p>{t('featSecureBody')}</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="how">
+    <div class="wrap">
+      <div class="section-title">
+        <h2>{t('howTitle')}</h2>
+        <p>{t('howSubtitle')}</p>
+      </div>
+      <div class="steps">
+        <div class="step">
+          <span class="n">{t('step1Label')}</span>
+          <h3>{t('step1Title')}</h3>
+          <p>{t('step1Body')}</p>
+        </div>
+        <div class="step">
+          <span class="n">{t('step2Label')}</span>
+          <h3>{t('step2Title')}</h3>
+          <p>{t('step2Body')}</p>
+        </div>
+        <div class="step">
+          <span class="n">{t('step3Label')}</span>
+          <h3>{t('step3Title')}</h3>
+          <p>{t('step3Body')}</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="privacy">
+    <div class="wrap">
+      <div class="privacy-card">
+        <h3>{t('privacyTitle')}</h3>
+        <ul>
+          <li set:html={t('privacyB1')} />
+          <li set:html={t('privacyB2')} />
+          <li set:html={t('privacyB3')} />
+          <li set:html={t('privacyB4')} />
+        </ul>
+        <div class="requirements">
+          <div class="req">
+            <span class="label">{t('reqMacosLabel')}</span>
+            <span class="value">{t('reqMacosValue')}</span>
+          </div>
+          <div class="req">
+            <span class="label">{t('reqIosLabel')}</span>
+            <span class="value">{t('reqIosValue')}</span>
+          </div>
+          <div class="req">
+            <span class="label">{t('reqNetworkLabel')}</span>
+            <span class="value">{t('reqNetworkValue')}</span>
+          </div>
+          <div class="req">
+            <span class="label">{t('reqPermsLabel')}</span>
+            <span class="value">{t('reqPermsValue')}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap row">
+    <div>{t('footerCopy').replace('{year}', String(year))}</div>
+    <div class="links">
+      <a href={downloadHref}>{t('footerReleases')}</a>
+      <a href={sourceHref}>{t('footerGithub')}</a>
+      <a href={appcastHref}>{t('footerAppcast')}</a>
+    </div>
+  </div>
+</footer>
