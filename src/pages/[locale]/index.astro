@@ -1,0 +1,18 @@
+---
+import Base from '../../layouts/Base.astro';
+import Landing from '../../components/Landing.astro';
+import { ui, defaultLang, type Lang } from '../../i18n/ui';
+
+export function getStaticPaths() {
+  // One page per non-default locale; English is served at "/" by index.astro.
+  return (Object.keys(ui) as Lang[])
+    .filter((locale) => locale !== defaultLang)
+    .map((locale) => ({ params: { locale } }));
+}
+
+const { locale } = Astro.params as { locale: Lang };
+---
+
+<Base lang={locale}>
+  <Landing lang={locale} />
+</Base>
