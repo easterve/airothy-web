@@ -10,7 +10,6 @@ const { lang } = Astro.props;
 const t = useTranslations(lang);
 
 const downloadHref = 'https://github.com/easterve/airothy-releases/releases';
-const appcastHref = 'https://github.com/easterve/airothy-releases/blob/main/appcast.xml';
 // App Store URL — fill in when the iOS app ships; empty hides the hero button.
 const iosHref = '';
 
@@ -160,9 +159,5 @@ const langCodes = Object.keys(languages) as Lang[];
 <footer>
   <div class="wrap row">
     <div>{t('footerCopy').replace('{year}', String(year))}</div>
-    <div class="links">
-      <a href={downloadHref}>{t('footerReleases')}</a>
-      <a href={appcastHref}>{t('footerAppcast')}</a>
-    </div>
   </div>
 </footer>
