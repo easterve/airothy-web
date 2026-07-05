@@ -12,7 +12,8 @@ const t = useTranslations(lang);
 const downloadHref = 'https://github.com/easterve/airothy-releases/releases';
 const sourceHref = 'https://github.com/easterve';
 const appcastHref = 'https://github.com/easterve/airothy-releases/blob/main/appcast.xml';
-const iosHref = 'https://apps.apple.com/app/id0000000000';
+// App Store URL — fill in when the iOS app ships; empty hides the hero button.
+const iosHref = '';
 
 const year = new Date().getFullYear();
 const langCodes = Object.keys(languages) as Lang[];
@@ -53,7 +54,7 @@ const langCodes = Object.keys(languages) as Lang[];
       <p>{t('heroSubtitle')}</p>
       <div class="cta-row">
         <a class="btn btn-primary" href={downloadHref}>{t('heroCtaPrimary')}</a>
-        <a class="btn btn-secondary" href={iosHref}>{t('heroCtaSecondary')}</a>
+        {iosHref && <a class="btn btn-secondary" href={iosHref}>{t('heroCtaSecondary')}</a>}
       </div>
       <div class="hero-meta">{t('heroMeta')}</div>
 
