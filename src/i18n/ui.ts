@@ -19,7 +19,7 @@ export const ui = {
       'Airothy turns your iPhone into a wireless trackpad and keyboard for your Mac. No cables, no accounts. Your input never leaves your own network.',
     navDownload: 'Download',
     heroBadge: '',
-    heroTitle: `Your iPhone as a <span class="accent">wireless trackpad</span>`,
+    heroTitle: `Your iPhone<br />as a <span class="accent">wireless trackpad</span>`,
     heroSubtitle:
       'Control your Mac from across the room.\nYour iPhone becomes a fast, private trackpad and keyboard.\nGestures, typing, and shortcuts, right in your hand.',
     heroCtaPrimary: 'Download for macOS',
@@ -77,7 +77,7 @@ export const ui = {
       'Airothy macht dein iPhone zum drahtlosen Trackpad und zur Tastatur für deinen Mac. Ohne Kabel, ohne Konto. Deine Eingaben bleiben in deinem eigenen Netzwerk.',
     navDownload: 'Laden',
     heroBadge: '',
-    heroTitle: `Dein iPhone als <span class="accent">drahtloses Trackpad</span>`,
+    heroTitle: `Dein iPhone<br />als <span class="accent">drahtloses Trackpad</span>`,
     heroSubtitle:
       'Steuere deinen Mac von überall im Raum.\nDein iPhone wird zum schnellen, privaten Trackpad mit Tastatur.\nGesten, Tippen und Shortcuts, direkt in deiner Hand.',
     heroCtaPrimary: 'Für macOS laden',
@@ -135,7 +135,7 @@ export const ui = {
       'Airothy convierte tu iPhone en un trackpad y teclado inalámbricos para tu Mac. Sin cables ni cuentas. Lo que escribes no sale de tu propia red.',
     navDownload: 'Descargar',
     heroBadge: '',
-    heroTitle: `Tu iPhone como <span class="accent">trackpad inalámbrico</span>`,
+    heroTitle: `Tu iPhone<br />como <span class="accent">trackpad inalámbrico</span>`,
     heroSubtitle:
       'Controla tu Mac desde cualquier punto de la habitación.\nTu iPhone se convierte en un trackpad y teclado rápidos y privados.\nGestos, escritura y atajos, en la palma de tu mano.',
     heroCtaPrimary: 'Descargar para macOS',
@@ -193,7 +193,7 @@ export const ui = {
       'Airothy transforme votre iPhone en trackpad et clavier sans fil pour votre Mac. Sans câble ni compte. Vos saisies ne quittent jamais votre propre réseau.',
     navDownload: 'Télécharger',
     heroBadge: '',
-    heroTitle: `Votre iPhone en <span class="accent">trackpad sans fil</span>`,
+    heroTitle: `Votre iPhone<br />en <span class="accent">trackpad sans fil</span>`,
     heroSubtitle:
       'Pilotez votre Mac depuis l’autre bout de la pièce.\nVotre iPhone devient un trackpad et un clavier rapides et privés.\nGestes, saisie et raccourcis, au creux de la main.',
     heroCtaPrimary: 'Télécharger pour macOS',
@@ -251,7 +251,7 @@ export const ui = {
       'Airothy は iPhone を Mac のワイヤレストラックパッド＆キーボードにします。ケーブルもアカウントも不要。入力した内容が自分のネットワークの外に出ることはありません。',
     navDownload: 'ダウンロード',
     heroBadge: '',
-    heroTitle: `iPhone が<span class="accent">ワイヤレストラックパッド</span>に`,
+    heroTitle: `iPhone が<br /><span class="accent">ワイヤレストラックパッド</span>に`,
     heroSubtitle:
       '部屋のどこからでも Mac を操作。\niPhone が速くてプライベートなトラックパッド＆キーボードになります。\nジェスチャも、文字入力も、ショートカットも、手のひらの中に。',
     heroCtaPrimary: 'macOS 版をダウンロード',
@@ -309,7 +309,7 @@ export const ui = {
       'Airothy는 iPhone을 Mac의 무선 트랙패드와 키보드로 만들어 줍니다. 케이블도, 계정도 필요 없습니다. 입력한 내용은 내 네트워크 밖으로 나가지 않습니다.',
     navDownload: '다운로드',
     heroBadge: '',
-    heroTitle: `iPhone을 <span class="accent">무선 트랙패드</span>로`,
+    heroTitle: `iPhone을<br /><span class="accent">무선 트랙패드</span>로`,
     heroSubtitle:
       '방 반대편에서도 Mac을 조작하세요.\niPhone이 빠르고 안전한 트랙패드와 키보드가 됩니다.\n제스처도, 타이핑도, 단축키도, 전부 손안에서.',
     heroCtaPrimary: 'macOS용 다운로드',
@@ -367,7 +367,7 @@ export const ui = {
       'Airothy 让 iPhone 变成 Mac 的无线触控板和键盘。不用线缆，不用账户，你的输入不会离开你自己的网络。',
     navDownload: '下载',
     heroBadge: '',
-    heroTitle: `让 iPhone 成为<span class="accent">无线触控板</span>`,
+    heroTitle: `让 iPhone 成为<br /><span class="accent">无线触控板</span>`,
     heroSubtitle:
       '在房间任何角落操控 Mac。\niPhone 变身快速、私密的触控板和键盘。\n手势、打字、快捷键，尽在掌心。',
     heroCtaPrimary: '下载 macOS 版',
@@ -425,7 +425,7 @@ export const ui = {
       'يحوّل Airothy هاتف iPhone إلى لوحة تتبع ولوحة مفاتيح لاسلكية لجهاز Mac. بلا كابلات ولا حسابات، وما تكتبه لا يغادر شبكتك أبدًا.',
     navDownload: 'تنزيل',
     heroBadge: '',
-    heroTitle: `اجعل iPhone <span class="accent">لوحة تتبع لاسلكية</span>`,
+    heroTitle: `اجعل iPhone<br /><span class="accent">لوحة تتبع لاسلكية</span>`,
     heroSubtitle:
       'تحكّم في جهاز Mac من أي مكان في الغرفة.\nيتحوّل iPhone إلى لوحة تتبع ولوحة مفاتيح سريعة وخاصة.\nالإيماءات والكتابة والاختصارات، كلها بين يديك.',
     heroCtaPrimary: 'التنزيل لنظام macOS',
