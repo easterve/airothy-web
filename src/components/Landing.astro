@@ -9,7 +9,11 @@ interface Props {
 const { lang } = Astro.props;
 const t = useTranslations(lang);
 
-const downloadHref = 'https://github.com/easterve/airothy-releases/releases';
+// Direct download of the newest stable release. GitHub's `latest` only sees
+// non-prerelease releases, and stable releases attach an unversioned
+// AirothyServer.dmg alias exactly so this URL never goes stale (release.sh).
+const downloadHref =
+  'https://github.com/easterve/airothy-releases/releases/latest/download/AirothyServer.dmg';
 // App Store URL — fill in when the iOS app ships; empty hides the hero button.
 const iosHref = '';
 
