@@ -1,0 +1,261 @@
+---
+// Privacy policy for airothy.com/privacy — the URL App Store Connect points at.
+// English only for now; the landing page footer links here from every locale.
+const effectiveDate = 'July 25, 2026';
+const year = new Date().getFullYear();
+---
+
+<!doctype html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="How Airothy handles your data: input stays on your local network, no accounts, anonymous usage statistics only."
+    />
+    <meta name="theme-color" content="#0A1E3D" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/airothy-icon.png" />
+    <link rel="canonical" href="https://airothy.com/privacy/" />
+    <title>Privacy Policy — Airothy</title>
+
+    <style>
+      :root {
+        --bg-deep: #08182f;
+        --bg: #0a1e3d;
+        --bg-card: #122e57;
+        --border: rgba(255, 255, 255, 0.09);
+        --text: #f5f8ff;
+        --text-muted: rgba(245, 248, 255, 0.62);
+        --text-faint: rgba(245, 248, 255, 0.42);
+        --accent: #8ab9ff;
+        --accent-soft: rgba(138, 185, 255, 0.16);
+      }
+
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        background: radial-gradient(circle at 50% -10%, #1b3a6a 0%, var(--bg) 40%, var(--bg-deep) 100%);
+        color: var(--text);
+        font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', 'Noto Sans',
+          'Inter', system-ui, sans-serif;
+        font-size: 17px;
+        line-height: 1.65;
+        -webkit-font-smoothing: antialiased;
+        min-height: 100vh;
+      }
+
+      a {
+        color: var(--accent);
+        text-decoration: none;
+      }
+
+      a:hover {
+        color: #b8d4ff;
+      }
+
+      .wrap {
+        max-width: 720px;
+        margin: 0 auto;
+        padding: 0 28px;
+      }
+
+      nav {
+        padding: 28px 0;
+      }
+
+      .brand img {
+        height: 28px;
+        width: auto;
+        filter: brightness(0) invert(1);
+        opacity: 0.95;
+      }
+
+      main {
+        padding: 24px 0 60px;
+      }
+
+      h1 {
+        font-size: clamp(32px, 5vw, 44px);
+        font-weight: 700;
+        letter-spacing: -0.02em;
+        margin: 0 0 8px;
+      }
+
+      .effective {
+        color: var(--text-faint);
+        font-size: 14px;
+        margin: 0 0 36px;
+      }
+
+      .summary {
+        padding: 24px 26px;
+        border-radius: 16px;
+        background: var(--bg-card);
+        border: 1px solid var(--border);
+        margin-bottom: 44px;
+      }
+
+      .summary h2 {
+        margin: 0 0 12px;
+        font-size: 16px;
+        font-weight: 700;
+        color: var(--accent);
+        letter-spacing: 0.02em;
+      }
+
+      .summary ul {
+        margin: 0;
+        padding-inline-start: 20px;
+        color: var(--text-muted);
+        font-size: 15px;
+      }
+
+      .summary li + li {
+        margin-top: 8px;
+      }
+
+      h2 {
+        font-size: 22px;
+        font-weight: 700;
+        letter-spacing: -0.01em;
+        margin: 40px 0 12px;
+      }
+
+      p {
+        color: var(--text-muted);
+        margin: 0 0 16px;
+      }
+
+      strong {
+        color: var(--text);
+        font-weight: 600;
+      }
+
+      footer {
+        border-top: 1px solid var(--border);
+        padding: 32px 0 44px;
+        color: var(--text-faint);
+        font-size: 14px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <nav>
+      <div class="wrap">
+        <a class="brand" href="/" aria-label="Airothy home">
+          <img src="/airothy-wordmark.png" alt="Airothy" />
+        </a>
+      </div>
+    </nav>
+
+    <main>
+      <div class="wrap">
+        <h1>Privacy Policy</h1>
+        <p class="effective">Effective {effectiveDate}</p>
+
+        <div class="summary">
+          <h2>The short version</h2>
+          <ul>
+            <li>
+              Everything you type and tap travels directly from your iPhone to your Mac over your
+              own local network, encrypted. It never touches the internet or any server of ours.
+            </li>
+            <li>There are no accounts. We don't know who you are.</li>
+            <li>
+              The iOS app sends anonymous usage statistics through TelemetryDeck. Nothing in them
+              identifies you. We don't track you across apps and we never sell data.
+            </li>
+          </ul>
+        </div>
+
+        <p>
+          Airothy is a pair of apps: an iOS app that turns your iPhone or iPad into a trackpad and
+          keyboard, and a macOS companion app that receives that input. This policy explains what
+          data the apps handle, and how little of it ever leaves your devices.
+        </p>
+
+        <h2>Your input stays on your network</h2>
+        <p>
+          Trackpad gestures, keystrokes, clicks, and scrolls travel straight from your iPhone to
+          your Mac over your local Wi-Fi or LAN, on an encrypted and authenticated connection.
+          There is no relay server and no cloud component. Airothy works even on a network with no
+          internet access at all. <strong>We never see, store, or transmit anything you type or
+          tap.</strong>
+        </p>
+
+        <h2>Anonymous usage statistics</h2>
+        <p>
+          The iOS app uses <a href="https://telemetrydeck.com/privacy/">TelemetryDeck</a>, a
+          privacy-focused analytics service, to count anonymous events such as app launches,
+          feature usage, and whether a trial or purchase happened. Events carry general technical
+          context like app version, device model, OS version, and language. TelemetryDeck hashes
+          identifiers before storing anything, so this data cannot be tied back to you as a person.
+          We use it only to understand which features matter and to improve the app.
+        </p>
+        <p>
+          We do not use advertising identifiers, we do not track you across other companies' apps
+          or websites, and we never sell data. This is also why the app never shows Apple's App
+          Tracking Transparency prompt: there is no tracking to ask about.
+        </p>
+        <p>The macOS app sends no analytics at all.</p>
+
+        <h2>Camera</h2>
+        <p>
+          The iOS app asks for camera access only when you scan the pairing QR code shown on your
+          Mac. Scanning happens entirely on your device. No photos or video are captured, stored,
+          or sent anywhere.
+        </p>
+
+        <h2>Purchases</h2>
+        <p>
+          Airothy Pro is a one-time purchase handled entirely by Apple through the App Store.
+          Apple processes the payment; we never receive your name, payment details, or Apple
+          Account. The apps only learn whether Pro is unlocked.
+        </p>
+
+        <h2>Data stored on your devices</h2>
+        <p>
+          To make pairing work, the apps keep a small amount of data locally: the cryptographic
+          keys your devices use to recognize each other, the list of Macs you've paired with on
+          the iPhone and iPhones you've approved on the Mac, and your settings. This data stays on
+          your devices and is never uploaded. Deleting the apps deletes it.
+        </p>
+
+        <h2>Children</h2>
+        <p>
+          Airothy is a general-audience utility and collects no personal information from anyone,
+          including children.
+        </p>
+
+        <h2>Changes to this policy</h2>
+        <p>
+          If this policy changes, we'll update this page and its effective date. Meaningful
+          changes will also be mentioned in the app's release notes.
+        </p>
+
+        <h2>Contact</h2>
+        <p>
+          Questions about privacy? Email
+          <a href="mailto:passlet@icloud.com">passlet@icloud.com</a>.
+        </p>
+      </div>
+    </main>
+
+    <footer>
+      <div class="wrap">© {year} Airothy. Made by easterve.</div>
+    </footer>
+  </body>
+</html>
