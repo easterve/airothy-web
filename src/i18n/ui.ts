@@ -28,7 +28,7 @@ export const ui = {
     featTrackpadTitle: 'Multi-touch trackpad',
     featTrackpadBody:
       'One finger for the pointer, two to scroll and pinch-to-zoom, three for Mission Control and switching Spaces. The real macOS gestures, exactly as you know them.',
-    featKeyboardTitle: 'Full Magic Keyboard',
+    featKeyboardTitle: 'The full Mac Keyboard',
     featKeyboardBody:
       'Hold-to-use modifiers, smooth key repeat, and a function row that matches your Mac: brightness, media, mute, and volume. Or use the iOS keyboard with a Cmd / Opt / Ctrl / Shift bar.',
     featSecureTitle: 'Authenticated by design',
@@ -47,7 +47,7 @@ export const ui = {
     step3Label: 'STEP 03',
     step3Title: 'Control your Mac',
     step3Body:
-      "Gestures on the trackpad surface, typing on the full-screen Magic Keyboard. Lock your iPhone when you're done and the session ends on its own.",
+      "Gestures on the trackpad surface, typing on the full-screen Mac Keyboard. Lock your iPhone when you're done and the session ends on its own.",
     privacyTitle: 'Privacy and security',
     privacyB1:
       '<strong>Local network only.</strong> The iPhone and Mac talk peer-to-peer over Bonjour and TCP. Nothing transits the public internet.',
@@ -84,7 +84,7 @@ export const ui = {
     featTrackpadTitle: 'Multi-Touch-Trackpad',
     featTrackpadBody:
       'Mit einem Finger zeigen, mit zwei Fingern scrollen und zoomen, mit drei Fingern Mission Control öffnen und zwischen Spaces wechseln. Die echten macOS-Gesten, genau wie du sie kennst.',
-    featKeyboardTitle: 'Das volle Magic Keyboard',
+    featKeyboardTitle: 'Die volle Mac-Tastatur',
     featKeyboardBody:
       'Modifikatortasten zum Gedrückthalten, flüssige Tastenwiederholung und eine Funktionsleiste, die zu deinem Mac passt: Helligkeit, Medien, Stummschalten und Lautstärke. Oder nutze die iOS-Tastatur mit ihrer Cmd / Opt / Ctrl / Shift-Leiste.',
     featSecureTitle: 'Sicher von Grund auf',
@@ -103,7 +103,7 @@ export const ui = {
     step3Label: 'SCHRITT 03',
     step3Title: 'Mac steuern',
     step3Body:
-      'Gesten auf der Trackpad-Fläche, Tippen auf dem bildschirmfüllenden Magic Keyboard. Sperrst du dein iPhone, endet die Sitzung von selbst.',
+      'Gesten auf der Trackpad-Fläche, Tippen auf der bildschirmfüllenden Mac-Tastatur. Sperrst du dein iPhone, endet die Sitzung von selbst.',
     privacyTitle: 'Datenschutz und Sicherheit',
     privacyB1:
       '<strong>Nur im lokalen Netzwerk.</strong> iPhone und Mac kommunizieren direkt über Bonjour und TCP. Nichts geht über das öffentliche Internet.',
@@ -140,7 +140,7 @@ export const ui = {
     featTrackpadTitle: 'Trackpad multitáctil',
     featTrackpadBody:
       'Un dedo para el puntero, dos para desplazarte y hacer zoom, tres para Mission Control y cambiar de espacio. Los gestos de macOS de siempre, tal cual los conoces.',
-    featKeyboardTitle: 'Magic Keyboard al completo',
+    featKeyboardTitle: 'Teclado de Mac al completo',
     featKeyboardBody:
       'Modificadores que mantienes pulsados, repetición de teclas fluida y una fila de funciones adaptada a tu Mac: brillo, multimedia, silencio y volumen. O usa el teclado de iOS con su barra de Cmd / Opt / Ctrl / Shift.',
     featSecureTitle: 'Seguro por diseño',
@@ -159,7 +159,7 @@ export const ui = {
     step3Label: 'PASO 03',
     step3Title: 'Controlar tu Mac',
     step3Body:
-      'Gestos en la superficie del trackpad, escritura en el Magic Keyboard a pantalla completa. Bloquea el iPhone al terminar y la sesión se cierra sola.',
+      'Gestos en la superficie del trackpad, escritura en el teclado de Mac a pantalla completa. Bloquea el iPhone al terminar y la sesión se cierra sola.',
     privacyTitle: 'Privacidad y seguridad',
     privacyB1:
       '<strong>Solo red local.</strong> El iPhone y el Mac se comunican de igual a igual mediante Bonjour y TCP. Nada pasa por internet.',
@@ -196,7 +196,7 @@ export const ui = {
     featTrackpadTitle: 'Trackpad multitouch',
     featTrackpadBody:
       'Un doigt pour le pointeur, deux pour faire défiler et zoomer, trois pour Mission Control et changer d’espace. Les vrais gestes de macOS, exactement comme vous les connaissez.',
-    featKeyboardTitle: 'Le Magic Keyboard au complet',
+    featKeyboardTitle: 'Le clavier Mac au complet',
     featKeyboardBody:
       'Des touches de modification à maintenir, une répétition des touches fluide et une rangée de fonctions adaptée à votre Mac : luminosité, médias, sourdine et volume. Ou le clavier iOS avec sa barre Cmd / Opt / Ctrl / Shift.',
     featSecureTitle: 'Authentifié par conception',
@@ -215,7 +215,7 @@ export const ui = {
     step3Label: 'ÉTAPE 03',
     step3Title: 'Contrôler votre Mac',
     step3Body:
-      'Les gestes sur la surface du trackpad, la saisie sur le Magic Keyboard plein écran. Verrouillez l’iPhone une fois terminé : la session se ferme toute seule.',
+      'Les gestes sur la surface du trackpad, la saisie sur le clavier Mac plein écran. Verrouillez l’iPhone une fois terminé : la session se ferme toute seule.',
     privacyTitle: 'Confidentialité et sécurité',
     privacyB1:
       '<strong>Réseau local uniquement.</strong> L’iPhone et le Mac communiquent en pair à pair via Bonjour et TCP. Rien ne transite par l’internet public.',
@@ -252,7 +252,7 @@ export const ui = {
     featTrackpadTitle: 'マルチタッチトラックパッド',
     featTrackpadBody:
       '1 本指でポインタ、2 本指でスクロールとピンチズーム、3 本指で Mission Control とスペースの切り替え。macOS 本来のジェスチャが、いつもの感覚で使えます。',
-    featKeyboardTitle: 'Magic Keyboard をそのまま',
+    featKeyboardTitle: 'Mac キーボードをそのまま',
     featKeyboardBody:
       '長押しで組み合わせる修飾キー、自然なキーリピート、Mac の世代に合わせたファンクションキー（輝度・メディア・消音・音量）。Cmd / Opt / Ctrl / Shift バー付きの iOS キーボードも使えます。',
     featSecureTitle: '仕組みから安全に',
@@ -271,7 +271,7 @@ export const ui = {
     step3Label: 'ステップ 03',
     step3Title: 'Mac を操作',
     step3Body:
-      'ジェスチャはトラックパッド画面で、入力は全画面の Magic Keyboard で。使い終わって iPhone をロックすれば、セッションは自動で終了します。',
+      'ジェスチャはトラックパッド画面で、入力は全画面の Mac キーボードで。使い終わって iPhone をロックすれば、セッションは自動で終了します。',
     privacyTitle: 'プライバシーとセキュリティ',
     privacyB1:
       '<strong>ローカルネットワークだけ。</strong> iPhone と Mac は Bonjour と TCP で直接通信します。データが外部のインターネットを通ることはありません。',
@@ -308,7 +308,7 @@ export const ui = {
     featTrackpadTitle: '멀티터치 트랙패드',
     featTrackpadBody:
       '한 손가락으로 포인터를 움직이고, 두 손가락으로 스크롤과 확대/축소, 세 손가락으로 Mission Control과 Space 전환까지. macOS 고유의 제스처가 익숙한 감각 그대로 동작합니다.',
-    featKeyboardTitle: 'Magic Keyboard 그대로',
+    featKeyboardTitle: 'Mac 키보드 그대로',
     featKeyboardBody:
       '길게 눌러 조합하는 보조 키, 자연스러운 키 반복, Mac 세대에 맞춘 기능 키 열(밝기·미디어·음소거·음량)까지. Cmd / Opt / Ctrl / Shift 바가 달린 iOS 키보드도 쓸 수 있습니다.',
     featSecureTitle: '처음부터 안전하게',
@@ -327,7 +327,7 @@ export const ui = {
     step3Label: 'STEP 03',
     step3Title: 'Mac 조작',
     step3Body:
-      '제스처는 트랙패드 화면에서, 타이핑은 전체 화면 Magic Keyboard에서. 다 쓰고 iPhone을 잠그면 세션이 알아서 종료됩니다.',
+      '제스처는 트랙패드 화면에서, 타이핑은 전체 화면 Mac 키보드에서. 다 쓰고 iPhone을 잠그면 세션이 알아서 종료됩니다.',
     privacyTitle: '개인정보 보호와 보안',
     privacyB1:
       '<strong>로컬 네트워크에서만.</strong> iPhone과 Mac은 Bonjour와 TCP로 직접 통신합니다. 어떤 데이터도 외부 인터넷을 거치지 않습니다.',
@@ -364,7 +364,7 @@ export const ui = {
     featTrackpadTitle: '多点触控触控板',
     featTrackpadBody:
       '单指移动指针，双指滚动、捏合缩放，三指呼出 Mission Control、切换空间。macOS 原生手势，用起来就是熟悉的感觉。',
-    featKeyboardTitle: '完整的 Magic Keyboard',
+    featKeyboardTitle: '完整的 Mac 键盘',
     featKeyboardBody:
       '长按组合的修饰键、顺滑的按键重复，功能键一行还会根据 Mac 机型显示亮度、媒体、静音和音量。也可以用带 Cmd / Opt / Ctrl / Shift 栏的 iOS 键盘。',
     featSecureTitle: '天生安全',
@@ -383,7 +383,7 @@ export const ui = {
     step3Label: '步骤 03',
     step3Title: '控制你的 Mac',
     step3Body:
-      '手势用触控板区域，打字用全屏 Magic Keyboard。用完锁上 iPhone，会话自动结束。',
+      '手势用触控板区域，打字用全屏 Mac 键盘。用完锁上 iPhone，会话自动结束。',
     privacyTitle: '隐私与安全',
     privacyB1:
       '<strong>只走本地网络。</strong> iPhone 和 Mac 通过 Bonjour 和 TCP 点对点通信，任何数据都不经过公共互联网。',
@@ -420,7 +420,7 @@ export const ui = {
     featTrackpadTitle: 'لوحة تتبع متعددة اللمس',
     featTrackpadBody:
       'إصبع واحد للمؤشر، وإصبعان للتمرير والتكبير، وثلاثة أصابع لفتح Mission Control والتنقل بين المساحات. إيماءات macOS الحقيقية كما تعرفها تمامًا.',
-    featKeyboardTitle: 'لوحة Magic Keyboard كاملة',
+    featKeyboardTitle: 'لوحة مفاتيح Mac كاملة',
     featKeyboardBody:
       'مفاتيح تعديل تعمل بالضغط المستمر، وتكرار سلس للمفاتيح، وصف مفاتيح وظائف يناسب جهاز Mac لديك: السطوع والوسائط والكتم ومستوى الصوت. أو استخدم لوحة مفاتيح iOS مع شريط Cmd / Opt / Ctrl / Shift.',
     featSecureTitle: 'آمن بطبيعته',
@@ -439,7 +439,7 @@ export const ui = {
     step3Label: 'الخطوة 03',
     step3Title: 'التحكم في Mac',
     step3Body:
-      'استخدم سطح لوحة التتبع للإيماءات، ولوحة Magic Keyboard بملء الشاشة للكتابة. اقفل iPhone عند الانتهاء وستنتهي الجلسة تلقائيًا.',
+      'استخدم سطح لوحة التتبع للإيماءات، ولوحة مفاتيح Mac بملء الشاشة للكتابة. اقفل iPhone عند الانتهاء وستنتهي الجلسة تلقائيًا.',
     privacyTitle: 'الخصوصية والأمان',
     privacyB1:
       '<strong>الشبكة المحلية فقط.</strong> يتواصل iPhone و Mac مباشرةً عبر Bonjour و TCP. لا شيء يمر عبر الإنترنت العام.',
