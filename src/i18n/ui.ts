@@ -67,6 +67,7 @@ export const ui = {
     reqPermsValue: 'Accessibility (macOS)',
     footerCopy: '© {year} Airothy. Made by easterve.',
     switcherLabel: 'Language',
+    footerPrivacy: 'Privacy Policy',
   },
 
   de: {
@@ -123,6 +124,7 @@ export const ui = {
     reqPermsValue: 'Bedienungshilfen (macOS)',
     footerCopy: '© {year} Airothy. Made by easterve.',
     switcherLabel: 'Sprache',
+    footerPrivacy: 'Datenschutzerklärung',
   },
 
   es: {
@@ -179,6 +181,7 @@ export const ui = {
     reqPermsValue: 'Accesibilidad (macOS)',
     footerCopy: '© {year} Airothy. Made by easterve.',
     switcherLabel: 'Idioma',
+    footerPrivacy: 'Política de privacidad',
   },
 
   fr: {
@@ -235,6 +238,7 @@ export const ui = {
     reqPermsValue: 'Accessibilité (macOS)',
     footerCopy: '© {year} Airothy. Made by easterve.',
     switcherLabel: 'Langue',
+    footerPrivacy: 'Politique de confidentialité',
   },
 
   ja: {
@@ -291,6 +295,7 @@ export const ui = {
     reqPermsValue: 'アクセシビリティ（macOS）',
     footerCopy: '© {year} Airothy. Made by easterve.',
     switcherLabel: '言語',
+    footerPrivacy: 'プライバシーポリシー',
   },
 
   ko: {
@@ -347,6 +352,7 @@ export const ui = {
     reqPermsValue: '손쉬운 사용(macOS)',
     footerCopy: '© {year} Airothy. Made by easterve.',
     switcherLabel: '언어',
+    footerPrivacy: '개인정보 처리방침',
   },
 
   zh: {
@@ -403,6 +409,7 @@ export const ui = {
     reqPermsValue: '辅助功能（macOS）',
     footerCopy: '© {year} Airothy. Made by easterve.',
     switcherLabel: '语言',
+    footerPrivacy: '隐私政策',
   },
 
   ar: {
@@ -459,5 +466,6 @@ export const ui = {
     reqPermsValue: 'إمكانية الوصول (macOS)',
     footerCopy: '© {year} Airothy. Made by easterve.',
     switcherLabel: 'اللغة',
+    footerPrivacy: 'سياسة الخصوصية',
   },
 } as const;
