@@ -28,6 +28,8 @@ const alternates = (Object.keys(ui) as Lang[]).map((l) => ({
     <meta name="theme-color" content="#0A1E3D" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="apple-touch-icon" href="/airothy-icon.png" />
+    <!-- Safari Smart App Banner for the iOS app; keep in sync with privacy.astro. -->
+    <meta name="apple-itunes-app" content="app-id=6762072002" />
 
     <link rel="canonical" href={canonical} />
     {alternates.map((a) => <link rel="alternate" hreflang={a.hreflang} href={a.href} />)}

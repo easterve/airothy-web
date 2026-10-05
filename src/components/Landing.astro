@@ -14,8 +14,9 @@ const t = useTranslations(lang);
 // Airothy-for-Mac.dmg alias exactly so this URL never goes stale (release.sh).
 const downloadHref =
   'https://github.com/easterve/airothy-releases/releases/latest/download/Airothy-for-Mac.dmg';
-// App Store URL — fill in when the iOS app ships; empty hides the hero button.
-const iosHref = '';
+// Storefront-neutral App Store URL; Apple redirects it to the visitor's own
+// storefront, so it works for every locale. Empty hides the hero button.
+const iosHref = 'https://apps.apple.com/app/id6762072002';
 
 const year = new Date().getFullYear();
 const langCodes = Object.keys(languages) as Lang[];
