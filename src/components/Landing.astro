@@ -18,6 +18,13 @@ const downloadHref =
 // storefront, so it works for every locale. Empty hides the hero button.
 const iosHref = 'https://apps.apple.com/app/id6762072002';
 
+// Feature tour video: Korean has its own cut (Korean captions and app UI);
+// every other locale shows the English one.
+const tour =
+  lang === 'ko'
+    ? { src: '/airothy-tour-ko.mp4', poster: '/airothy-tour-ko-poster.jpg' }
+    : { src: '/airothy-tour.mp4', poster: '/airothy-tour-poster.jpg' };
+
 const year = new Date().getFullYear();
 const langCodes = Object.keys(languages) as Lang[];
 ---
@@ -61,8 +68,8 @@ const langCodes = Object.keys(languages) as Lang[];
       <div class="hero-meta">{t('heroMeta')}</div>
 
       <!-- 80-second feature tour (no audio). preload="none": nothing downloads
-           until the visitor presses play. Source and re-render notes live in
-           the app repo wiki (wiki/wiki/pages/motion-graphic.md). -->
+           until the visitor presses play. Source: brand/motion/ in the app repo;
+           re-render notes in its wiki (wiki/wiki/pages/motion-graphic.md). -->
       <div class="hero-video" data-tour>
         <video
           preload="none"
@@ -70,10 +77,10 @@ const langCodes = Object.keys(languages) as Lang[];
           muted
           width="1920"
           height="1080"
-          poster="/airothy-tour-poster.jpg"
+          poster={tour.poster}
           aria-label={t('videoLabel')}
         >
-          <source src="/airothy-tour.mp4" type="video/mp4" />
+          <source src={tour.src} type="video/mp4" />
         </video>
         <button class="tour-play" type="button">
           <span class="tour-play-icon" aria-hidden="true">
