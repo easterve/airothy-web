@@ -25,6 +25,8 @@ export const ui = {
     heroCtaPrimary: 'Download for macOS',
     heroCtaSecondary: 'Get the iOS app',
     heroMeta: 'Requires macOS 15+ and iOS 26+ on the same local network.',
+    videoPlay: 'Watch the tour',
+    videoLabel: 'Airothy feature tour, 80 seconds, no sound',
     featTrackpadTitle: 'Multi-touch trackpad',
     featTrackpadBody:
       'One finger for the pointer, two to scroll and pinch-to-zoom, three for Mission Control and switching Spaces. The real macOS gestures, exactly as you know them.',
@@ -82,6 +84,8 @@ export const ui = {
     heroCtaPrimary: 'Für macOS laden',
     heroCtaSecondary: 'iOS-App holen',
     heroMeta: 'Benötigt macOS 15 oder neuer und iOS 26 oder neuer im selben Netzwerk.',
+    videoPlay: 'Tour ansehen',
+    videoLabel: 'Airothy-Funktionstour, 80 Sekunden, ohne Ton',
     featTrackpadTitle: 'Multi-Touch-Trackpad',
     featTrackpadBody:
       'Mit einem Finger zeigen, mit zwei Fingern scrollen und zoomen, mit drei Fingern Mission Control öffnen und zwischen Spaces wechseln. Die echten macOS-Gesten, genau wie du sie kennst.',
@@ -139,6 +143,8 @@ export const ui = {
     heroCtaPrimary: 'Descargar para macOS',
     heroCtaSecondary: 'Obtener la app de iOS',
     heroMeta: 'Requiere macOS 15 o posterior e iOS 26 o posterior en la misma red local.',
+    videoPlay: 'Ver el recorrido',
+    videoLabel: 'Recorrido por las funciones de Airothy, 80 segundos, sin sonido',
     featTrackpadTitle: 'Trackpad multitáctil',
     featTrackpadBody:
       'Un dedo para el puntero, dos para desplazarte y hacer zoom, tres para Mission Control y cambiar de espacio. Los gestos de macOS de siempre, tal cual los conoces.',
@@ -196,6 +202,8 @@ export const ui = {
     heroCtaPrimary: 'Télécharger pour macOS',
     heroCtaSecondary: 'Obtenir l’app iOS',
     heroMeta: 'Nécessite macOS 15 ou ultérieur et iOS 26 ou ultérieur sur le même réseau local.',
+    videoPlay: 'Voir la démo',
+    videoLabel: 'Démo des fonctions d’Airothy, 80 secondes, sans son',
     featTrackpadTitle: 'Trackpad multitouch',
     featTrackpadBody:
       'Un doigt pour le pointeur, deux pour faire défiler et zoomer, trois pour Mission Control et changer d’espace. Les vrais gestes de macOS, exactement comme vous les connaissez.',
@@ -253,6 +261,8 @@ export const ui = {
     heroCtaPrimary: 'macOS 版をダウンロード',
     heroCtaSecondary: 'iOS アプリを入手',
     heroMeta: '同じローカルネットワーク上の macOS 15 以降と iOS 26 以降が必要です。',
+    videoPlay: '動画で見る',
+    videoLabel: 'Airothyの機能紹介動画（80秒・音声なし）',
     featTrackpadTitle: 'マルチタッチトラックパッド',
     featTrackpadBody:
       '1 本指でポインタ、2 本指でスクロールとピンチズーム、3 本指で Mission Control とスペースの切り替え。macOS 本来のジェスチャが、いつもの感覚で使えます。',
@@ -310,6 +320,8 @@ export const ui = {
     heroCtaPrimary: 'macOS용 다운로드',
     heroCtaSecondary: 'iOS 앱 받기',
     heroMeta: '같은 로컬 네트워크에 있는 macOS 15 이상, iOS 26 이상이 필요합니다.',
+    videoPlay: '영상으로 보기',
+    videoLabel: 'Airothy 기능 소개 영상 (80초, 소리 없음)',
     featTrackpadTitle: '멀티터치 트랙패드',
     featTrackpadBody:
       '한 손가락으로 포인터를 움직이고, 두 손가락으로 스크롤과 확대/축소, 세 손가락으로 Mission Control과 Space 전환까지. macOS 고유의 제스처가 익숙한 감각 그대로 동작합니다.',
@@ -367,6 +379,8 @@ export const ui = {
     heroCtaPrimary: '下载 macOS 版',
     heroCtaSecondary: '获取 iOS 应用',
     heroMeta: '需要处于同一本地网络的 macOS 15 及以上和 iOS 26 及以上。',
+    videoPlay: '观看演示',
+    videoLabel: 'Airothy 功能演示视频（80 秒，无声音）',
     featTrackpadTitle: '多点触控触控板',
     featTrackpadBody:
       '单指移动指针，双指滚动、捏合缩放，三指呼出 Mission Control、切换空间。macOS 原生手势，用起来就是熟悉的感觉。',
@@ -424,6 +438,8 @@ export const ui = {
     heroCtaPrimary: 'التنزيل لنظام macOS',
     heroCtaSecondary: 'الحصول على تطبيق iOS',
     heroMeta: 'يتطلب macOS 15 أو أحدث و iOS 26 أو أحدث على الشبكة المحلية نفسها.',
+    videoPlay: 'شاهد الجولة',
+    videoLabel: 'جولة في ميزات Airothy، مدتها 80 ثانية، بدون صوت',
     featTrackpadTitle: 'لوحة تتبع متعددة اللمس',
     featTrackpadBody:
       'إصبع واحد للمؤشر، وإصبعان للتمرير والتكبير، وثلاثة أصابع لفتح Mission Control والتنقل بين المساحات. إيماءات macOS الحقيقية كما تعرفها تمامًا.',
