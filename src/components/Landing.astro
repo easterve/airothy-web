@@ -60,8 +60,28 @@ const langCodes = Object.keys(languages) as Lang[];
       </div>
       <div class="hero-meta">{t('heroMeta')}</div>
 
-      <div class="hero-visual">
-        <img src="/airothy-icon.png" alt="Airothy" />
+      <!-- 80-second feature tour (no audio). preload="none": nothing downloads
+           until the visitor presses play. Source and re-render notes live in
+           the app repo wiki (wiki/wiki/pages/motion-graphic.md). -->
+      <div class="hero-video" data-tour>
+        <video
+          preload="none"
+          playsinline
+          muted
+          width="1920"
+          height="1080"
+          poster="/airothy-tour-poster.jpg"
+          aria-label={t('videoLabel')}
+        >
+          <source src="/airothy-tour.mp4" type="video/mp4" />
+        </video>
+        <button class="tour-play" type="button">
+          <span class="tour-play-icon" aria-hidden="true">
+            <svg width="14" height="14" viewBox="0 0 24 24"><path d="M7 4.5v15l12.5-7.5z" fill="currentColor" /></svg>
+          </span>
+          <span>{t('videoPlay')}</span>
+          <span class="tour-play-dur">1:20</span>
+        </button>
       </div>
     </div>
   </section>
@@ -167,3 +187,23 @@ const langCodes = Object.keys(languages) as Lang[];
     <a href="/privacy/">{t('footerPrivacy')}</a>
   </div>
 </footer>
+
+<script>
+  // Poster + play button until the visitor asks for the video; native
+  // controls take over once it is playing, and the button returns at the end.
+  for (const box of document.querySelectorAll<HTMLElement>('[data-tour]')) {
+    const video = box.querySelector('video');
+    const play = box.querySelector<HTMLButtonElement>('.tour-play');
+    if (!video || !play) continue;
+    play.addEventListener('click', () => {
+      video.controls = true;
+      box.classList.add('is-playing');
+      video.play().catch(() => box.classList.remove('is-playing'));
+    });
+    video.addEventListener('ended', () => {
+      box.classList.remove('is-playing');
+      video.controls = false;
+      video.load();
+    });
+  }
+</script>
